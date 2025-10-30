@@ -1,71 +1,46 @@
-# 📚 技术文档分类目录
+# 📚 Technical Documentation Library | 技术文档库
 
-本目录已按照技术领域进行分类整理，便于查找和管理相关文档。
+This directory serves as a curated library of technical documents, organized by subject area for easy access and reference.
 
-## 📁 目录结构
+该目录是一个精选的技术文档库，按主题领域进行组织，便于查阅和参考。
 
-### 01\_芯片器件 (Chips & Components)
+## 🗂️ Table of Contents | 目录
 
-包含各种芯片和电子器件的技术文档：
+### 01. Chips & Components | 芯片与组件
 
-- **74HC595** - 移位寄存器
-- **CD4051** - 单刀八掷开关
-- **CD74HC4052M96E5** - 双路 4 通道模拟开关
-- **GS8632-SR** - 运算放大器
-- **INA226** - 高精度电流功率监测芯片
-- **MCP4017** - 可编程可调变阻器
-- **PGA11x** - 可编程增益放大器
+-   [74HC595 Shift Register](./01_芯片器件/74HC595/74HC595移位寄存器.md)
+-   [CD4051 Analog Switch](./01_芯片器件/CD4051/CD4051单刀八掷开关.md)
+-   [CD74HC4052 Dual 4-Channel Analog Switch](./01_芯片器件/CD74HC4052M96E5/CD74HC4052%20双路4通道模拟开关.md)
+-   [GS8632-SR Operational Amplifier](./01_芯片器件/GS8632-SR/GS8632C-SR运算放大器.md)
+-   [INA226 Current & Power Monitor](./01_芯片器件/INA226/INA226%20高精度电流功率监测芯片驱动文档.md)
+-   [MCP4017 Digital Potentiometer](./01_芯片器件/MCP4017/MCP4017可编程可调变阻器.md)
+-   [PGA11x Programmable Gain Amplifier](./01_芯片器件/PGA11x/PGA112可编程增益放大器.md)
 
-### 02_MCU 硬件 (MCU Hardware)
+### 02. MCU Hardware | 单片机硬件
 
-包含微控制器硬件相关文档：
+-   [MCU Peripherals (ADC, DAC, USART, SPI, I2C)](./02_MCU硬件/)
 
-- **MCU--hard** - MCU 硬件外设文档（ADC、DAC、USART、SPI、I2C 等）
+### 03. Communication Protocols | 通信协议
 
-### 03\_通信协议 (Communication Protocols)
+-   [I2C (Hardware Slave Mode)](./03_通信协议/I2C/hardware_i2c_slave/hardware_I2C.md)
+-   [SPMI (System Power Management Interface)](./03_通信协议/SPMI/SPMI.md)
 
-包含各种通信协议的实现和配置：
+### 04. Display Devices | 显示设备
 
-- **I2C** - 硬件 I2C 从机模式配置
-- **SPMI** - SPMI 通信协议
+-   [LCD Driver & Configuration](./04_显示设备/LCD/lcd屏幕.md)
 
-### 04\_显示设备 (Display Devices)
+### 05. Modules & Devices | 模块与设备
 
-包含显示相关设备文档：
+-   [D12 Device Documentation](./05_模块设备/D12相关文档/)
+-   [WiFi Serial Driver](./05_模块设备/WIFI/WiFi串口驱动代码解析（模块化注释版）.md)
 
-- **LCD** - LCD 屏幕驱动和配置
+### 06. Algorithms & Software | 算法与软件
 
-### 05\_模块设备 (Modules & Devices)
-
-包含各种功能模块和设备文档：
-
-- **D12 相关文档** - D12 设备功能和测试文档
-- **WIFI** - WiFi 串口驱动代码
-
-### 06\_算法软件 (Algorithms & Software)
-
-包含算法实现和软件相关文档：
-
-- **C_study** - C 语言学习笔记（快速排序、链表、指针等）
-- **LRC** - FFT 快速傅里叶变换等算法
-
-### 07\_其他文档 (Miscellaneous)
-
-包含其他类型的文档：
-
-- **身份证** - 身份证相关文档
-
-## 🎯 使用建议
-
-1. **按类别查找**：根据技术领域快速定位相关文档
-2. **统一命名**：建议新增文档按照现有命名规范
-3. **版本管理**：重要文档建议添加版本号和更新日期
-4. **交叉引用**：相关文档之间可添加交叉引用链接
-
-## 📝 更新记录
-
-- **2025-09-05**: 完成技术文档分类整理，创建 7 个主要分类目录
+-   [C Language Studies (Sorting, Linked Lists, Pointers)](./06_算法软件/C_study/)
+-   [FFT (Fast Fourier Transform)](./06_算法软件/LRC/FFT快速傅里叶变换.md)
 
 ---
 
-_最后更新：2025 年 9 月 5 日_
+This library is continuously updated with new documents and resources. Please maintain the existing structure and naming conventions when adding new content.
+
+本库会持续更新新的文档和资源。在添加新内容时，请保持现有的结构和命名约定。
